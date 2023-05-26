@@ -51,10 +51,10 @@
 #define TSC_OFFSET			0x4000UL
 
 /* AHB2 Peripheral Offsets */
-#define GPIOA_OFFSET	0x0UL
-#define GPIOB_OFFSET	0x400UL
-#define GPIOC_OFFSET	0x800UL
-#define GPIOF_OFFSET	0x1400UL
+#define GPIOA_OFFSET			0x0UL
+#define GPIOB_OFFSET			0x400UL
+#define GPIOC_OFFSET			0x800UL
+#define GPIOF_OFFSET			0x1400UL
 
 
 
@@ -105,7 +105,7 @@ typedef struct
 
 
 /* Peripheral Structure Overlay Pointers */
-#define RCC					((RCC_t *) RCC_BASE)
+#define RCC				((RCC_t *) RCC_BASE)
 #define GPIOA				((GPIO_t *) GPIOA_BASE)
 #define GPIOB				((GPIO_t *) GPIOB_BASE)
 #define GPIOC				((GPIO_t *) GPIOC_BASE)
