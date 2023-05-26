@@ -8,35 +8,35 @@
 #ifndef STM32F042XX_H_
 #define STM32F042XX_H_
 
-#define   __I     volatile const       /*!< Defines 'read only' permissions */
-#define   __O     volatile             /*!< Defines 'write only' permissions */
-#define   __IO    volatile             /*!< Defines 'read / write' permissions */
+#define __I     volatile const       /*!< Defines 'read only' permissions */
+#define __O     volatile             /*!< Defines 'write only' permissions */
+#define __IO    volatile             /*!< Defines 'read / write' permissions */
 
 
-#define APB		0x40000000UL
-#define AHB1	0x40020000UL
-#define AHB2	0x48000000UL
+#define APB				0x40000000UL
+#define AHB1				0x40020000UL
+#define AHB2				0x48000000UL
 
 /* APB Peripheral Offsets */
-#define TIM2_OFFSET				0x0UL
-#define TIM3_OFFSET				0x400UL
+#define TIM2_OFFSET			0x0UL
+#define TIM3_OFFSET			0x400UL
 #define TIM14_OFFSET			0x2000UL
-#define RTC_OFFSET				0x2800UL
-#define WWDG_OFFSET				0x2C00UL
-#define IWDG_OFFSET				0x3000UL
-#define SPI2_OFFSET				0x3800UL
+#define RTC_OFFSET			0x2800UL
+#define WWDG_OFFSET			0x2C00UL
+#define IWDG_OFFSET			0x3000UL
+#define SPI2_OFFSET			0x3800UL
 #define USART2_OFFSET			0x4400UL
-#define I2C1_OFFSET				0x5400UL
-#define USB_OFFSET				0x5C00UL
+#define I2C1_OFFSET			0x5400UL
+#define USB_OFFSET			0x5C00UL
 #define USB_CAN_RAM_OFFSET		0x6000UL
 #define BXCAN_OFFSET			0x6400UL
-#define CRS_OFFSET				0x6C00UL
-#define PWR_OFFSET				0x7000UL
-#define CEC_OFFSET				0x7800UL
+#define CRS_OFFSET			0x6C00UL
+#define PWR_OFFSET			0x7000UL
+#define CEC_OFFSET			0x7800UL
 #define SYSCFG_OFFSET			0x10000UL
-#define EXTI_OFFSET				0x10400UL
-#define ADC_OFFSET				0x12400UL
-#define TIM1_OFFSET				0x12C00UL
+#define EXTI_OFFSET			0x10400UL
+#define ADC_OFFSET			0x12400UL
+#define TIM1_OFFSET			0x12C00UL
 #define SPI1_I2S1_OFFSET		0x13000UL
 #define USART1_OFFSET			0x13800UL
 #define TIM16_OFFSET			0x14400UL
@@ -44,11 +44,11 @@
 #define DBGMCU_OFFSET			0x15800UL
 
 /* AHB1 Peripheral Offsets */
-#define DMA_OFFSET		0x0UL
-#define RCC_OFFSET		0x1000UL
-#define FMI_OFFSET		0x2000UL
-#define CRC_OFFSET		0x3000UL
-#define TSC_OFFSET		0x4000UL
+#define DMA_OFFSET			0x0UL
+#define RCC_OFFSET			0x1000UL
+#define FMI_OFFSET			0x2000UL
+#define CRC_OFFSET			0x3000UL
+#define TSC_OFFSET			0x4000UL
 
 /* AHB2 Peripheral Offsets */
 #define GPIOA_OFFSET	0x0UL
